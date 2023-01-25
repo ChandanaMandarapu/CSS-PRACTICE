@@ -1,0 +1,28 @@
+/* In Css everything is a box  */
+*{
+    margin: 0;
+    padding: 0;
+    /* For border box all will be caluclated for the content i.e padding margin and border not only content */
+    box-sizing: border-box;
+}
+.container{
+     border: 5px double black;
+     margin: 1.5em;
+     padding: 1.5em;
+     font-size: 1.5rem;
+     background-color: deepskyblue;
+     outline: 4px solid darkblue;
+     outline-offset: 2px;
+}
+/* To create a circle using all concepts learned */
+.circle{
+    background-color: deeppink;
+    width: 100px;
+    height: 100px;
+    margin: 2em auto;
+    border: 2px solid black;
+    outline: 2px solid blue;
+    outline-offset: 3px;
+    border-radius: 55px;
+
+}

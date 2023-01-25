@@ -1,0 +1,32 @@
+/* Their are diff selectors */
+/* Universal selector */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Body selector its inherited to rest of page */
+body{
+    font-size: 23px;
+    border: 2px solid black;
+}
+/* Grouping element selectors */
+h1,h2{
+    color: crimson;
+}
+/* Element selectors */
+p{
+    color: brown;
+}
+/* Class selectors are more specific */
+.green{
+    color: green;
+}
+/* Id selectors */
+#blue{
+    color: blue;
+}
+/* Highlighted a text inside a paragraph by giving it a class */
+.highlight{
+    text-transform: capitalize;
+    background-color: pink;
+    font: bolder;
+}
