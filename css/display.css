@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+/* Block level elements take up the full width */
+p{
+    background-color: aqua;
+    margin: 1rem;
+}
+/* MARGIN,HEIGHT,WIDTH doesnt apply to inline elements to make it happen need to use the display property of inline-block. only padding applies to the inline elements when padding overlaps this property is being used */
+.container{
+    display: inline-block;
+    background-color: blueviolet;
+    /* now all the properties are being applied */
+    margin: 2rem;
+    height: 100px;
+    width: 50%;
+    padding: 3rem;
+}
+/* Display properties for lists and links */
+
+ul{
+    list-style-type: none;
+    background-color: aquamarine;
+    padding: 1rem;
+    margin: auto;
+    text-align: right;
+}
+li{
+    display: inline-block;
+    margin-right: 5rem;
+}
+li a{
+    text-decoration: none;
+    color: #333;
+}
+li a:hover,a:focus{
+    text-decoration: underline;   
+}
