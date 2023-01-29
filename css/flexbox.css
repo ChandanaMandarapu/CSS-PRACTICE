@@ -1,0 +1,51 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+ }
+ .container{
+    border: 3px solid black;
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    /* To make the content turn into a flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap btw the flex */
+    gap: 0.5rem;
+    /* flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+    /* content inside the flex bos is also to be aligned */
+    align-content: space-evenly; 
+ }
+ .box{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-basis: 250px; */
+    /* flex-flow: column; */
+    /* flex-shrink: 1; */
+    /* flex-grow: 1; */
+    /* shorthand for basis grow and shrink */
+    flex: 1 1 250px;
+ }
+ .box:nth-child(2){
+    /* flex-wrap: nowrap; */
+    flex: 2 2 150px;
+    order: 4;
+ }

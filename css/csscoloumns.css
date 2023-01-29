@@ -1,0 +1,37 @@
+body{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.coloumns{
+    columns: 4 250px;
+    column-rule: 2px solid black;
+    column-gap: 3rem;
+}
+.coloumns p{
+    /* margin collapsed and margin is same for both 1 and 2nd pragraph */
+    margin-top: 0;
+}
+.coloumns h2{
+    margin-top: 0;
+    background-color: aqua;
+    padding: 1rem;
+    /* if the page is really consized the h2 will break and can continue in the next line to fix this */
+    break-inside: avoid;
+    /*it forces the columns to break after 1 */
+    break-before: column;
+}
+/* }more specificity than normal class */
+    /* margin-top: 3rem; */ 
+/* .quote{
+    font-size: 3rem;
+    text-align: center;
+    /* doesnt apply because columns.p class has 
+} */
+.coloumns .quote{
+    margin-top:2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+.nowrap{
+    white-space: nowrap;
+}

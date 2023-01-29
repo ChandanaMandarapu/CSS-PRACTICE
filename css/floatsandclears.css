@@ -1,0 +1,35 @@
+body{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Floats and clears */
+.block{
+    width: 30vw;
+    height: 30vw;
+    background-color: blueviolet;
+    color: navy;
+    padding: 1rem;
+}
+.left{
+    float: left;
+    /* text of paragraph wrapped up and is attached to float */
+    margin-right: 1.5rem;
+}
+.right{
+    float: right;
+    margin-left: 1.5rem;
+}
+/* if we want to wrap the float and the paragraph into the same container and if the text overflows from the container then a property is used in display  */
+/* clear is used to clear the left or right of the container u wanted to */
+section{
+    background-color: blanchedalmond;
+    /* without this property the float overflows from the section now its really neat */
+    display: flow-root;
+    border: 2px solid black;
+}
+article{
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    display: flow-root;
+    padding: 2rem;
+}
