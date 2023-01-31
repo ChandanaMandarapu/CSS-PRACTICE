@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+     background-color: antiquewhite;
+    /* You can set an img with the background color in my case its not transparent so im skipping it */
+    /* background-image: url('../boat-gbc0161589_1920.jpg'),
+    linear-gradient(papayawhip,brown); */
+     background-image: linear-gradient(papayawhip,brown);  
+}
+.clip{
+    font-weight: 800;
+    font-size: 16rem;
+    text-align: center;
+    /* background-image: url(../boat-gbc0161589_1920.jpg); */
+    text-transform: uppercase;
+    /* -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; */
+}
