@@ -17,7 +17,8 @@ body{
 }
 .right{
     float: right;
-    margin-left: 1.5rem;
+    /* margin-left: 1.5rem;
+    padding:0rem; */
 }
 /* if we want to wrap the float and the paragraph into the same container and if the text overflows from the container then a property is used in display  */
 /* clear is used to clear the left or right of the container u wanted to */
@@ -28,8 +29,10 @@ section{
     border: 2px solid black;
 }
 article{
+    min-width: 30vw;
+    min-height: 30vh;
     background-color: blanchedalmond;
     border: 2px solid black;
     display: flow-root;
-    padding: 2rem;
+    /* padding: 2rem; */
 }

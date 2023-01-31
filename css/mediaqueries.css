@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    min-height: 100vh;
+    background-color: beige;
+    background-image: radial-gradient(pink,violet);
+    display: flex;
+    flex-direction: column;
+}
+header,nav,main,footer{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+nav{
+    background-color: darkmagenta;
+    color: white;
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+}
+header,footer{
+    position: sticky;
+    background-color: blueviolet; 
+}
+header{
+    top: 0;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    bottom: 0;
+}
+/* Syntax for media queries */
+/* Syntax:
+@media screen and() {
+    
+} */
+/* small */
+@media screen and (min-width: 576px){
+    body{
+        background-image: radial-gradient(papayawhip,brown);
+    }
+    nav{
+        display: none;
+    }
+}
+/* medium */
+@media screen and (min-width: 768px){
+    body{
+        background-image: radial-gradient(yellow,firebrick);
+    }
+}
+/* large */
+@media screen and (min-width: 992px){
+    body{
+        background-image: radial-gradient(whitesmoke,gold);
+    }
+}
+
+/* XL */
+@media screen and (min-width: 1200px){
+    body{
+        background-image: radial-gradient(yellow,firebrick);
+    }
+}
+/* mobile device landscape */
+@media screen and (max-height:425px) and (min-aspect-ratio:7/4) {
+    body{
+        background-image: radial-gradient(red,papayawhip);
+    }
+    h1,h2{
+        font-size: 1rem;
+    }
+    nav{
+        display: none;
+    }
+}

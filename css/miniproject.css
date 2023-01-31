@@ -6,27 +6,27 @@
 }
 body{
     text-align: center;
-    margin: 0.5rem;
+    margin: 5.5rem;
 }
 nav{
-    
     border: 2px solid #333;
     border-radius: 2rem;
-    margin: 0 auto 1rem;
-    max-width: 700px;
-    line-height: 7rem;
+    margin: 0 auto 3rem;
+    max-width: 900px;
+    line-height: 8rem;
     font-size: 3rem;
 }
 h1{
-    padding: 2rem;
+    padding: 1rem;
     background-color: deepskyblue;
-    border-radius: 2rem 2rem 0 0;
+    border-radius: 2rem 2rem 0 0 ;
 }
 
 li{
     /* padding: 2rem; */
     border: 1px solid #333;
-    background-color: aquamarine
+    background-color: aquamarine;
+    
 }
 li a{
     display: block;
@@ -46,4 +46,12 @@ li a:hover,li a:focus{
 }
 li:last-child {
     border-radius: 0 0 2rem 2rem;
+}
+footer{
+    font-size: 2rem;
+}
+p a:hover,
+  a:visited{
+    background-color: black;
+    list-style-type: none;
 }
