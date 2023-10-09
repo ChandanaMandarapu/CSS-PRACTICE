@@ -42,29 +42,29 @@ footer{
 @media screen and() {
     
 } */
-/* small */
+/* small size device */
 @media screen and (min-width: 576px){
     body{
-        background-image: radial-gradient(papayawhip,brown);
+        background-image: radial-gradient(lemonchiffon,brown);
     }
     nav{
         display: none;
     }
 }
-/* medium */
+/* medium size device*/
 @media screen and (min-width: 768px){
     body{
-        background-image: radial-gradient(yellow,firebrick);
+        background-image: radial-gradient(papayawhip,firebrick);
     }
 }
-/* large */
+/* large size device*/
 @media screen and (min-width: 992px){
     body{
-        background-image: radial-gradient(whitesmoke,gold);
+        background-image: radial-gradient(azure,gold);
     }
 }
 
-/* XL */
+/* More large screens */
 @media screen and (min-width: 1200px){
     body{
         background-image: radial-gradient(yellow,firebrick);
